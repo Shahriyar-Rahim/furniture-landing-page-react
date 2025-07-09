@@ -3,7 +3,7 @@ import Products from './ShopPages/products'
 
 const Shop = () => {
   return (
-    <section className=' h-screen'>
+    <section className=' h-screen mb-140'>
       {/* banner */}
       <div className=' w-full h-[400px] bg-cover bg-center flex items-center justify-center text-white'
       style={{ backgroundImage: `url(${banner})` }}
